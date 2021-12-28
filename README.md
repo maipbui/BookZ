@@ -44,7 +44,7 @@ const API_KEY = "YOUR_API_KEY";
 npm install
 ```
 
-6. Runs the app in the development mode.
+6. Run the app in the development mode.
 
 ```shell
 npm start
