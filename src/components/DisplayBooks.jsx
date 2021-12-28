@@ -68,7 +68,7 @@ export default function DisplayBooks(props) {
         href="https://fonts.googleapis.com/css?family=Spartan"
         rel="stylesheet"
       />
-
+      <h5>{booksCount} results</h5>
       {booksPaginate.map((book, i) => {
         // Get book categories in a single book
         book.volumeInfo.categories?.map((genre, i) =>
